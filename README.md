@@ -1,9 +1,9 @@
 ![Angular Banner](angular.png)
 
-#Página do Curso
+# Página do Curso
 https://balta.io/cursos/7181
 
-#Aulas
+# Aulas
 
 | Título                        | Duração (min) |
 | :---:                         | : --- :       |
