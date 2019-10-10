@@ -6,7 +6,7 @@ https://balta.io/cursos/7181
 # Aulas
 
 | Título                        | Duração (min) |
-| :---:                         | : --- :       |
+| -------------                 | ------------- |
 | Apresentação                  | 1             |
 | Ferramentas                   | 2             |
 | Criando um projeto            | 6             |
