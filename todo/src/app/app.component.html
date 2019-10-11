@@ -12,6 +12,7 @@
   <fieldset>
     <label>Tarefa: </label>
     <input type="text" placeholder="Titulo da tarefa" maxlength="55" formControlName="title">
+    <small *ngIf="form.controls.title.invalid && !form.controls.title.pristine">Esse campo deve conter entre 3 e 55 catacteres</small>
     <button>Salvar</button>
   </fieldset>
 </form>
