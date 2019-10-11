@@ -31,3 +31,23 @@ https://balta.io/cursos/7181
 | Estilizando o formulário      | 6             |
 | Estilizando ações da lista    | 3             |
 | Build toques finais           | 6             |
+
+# Criando um projeto
+
+## Ferramentas
+
+1. VSCode
+2. PowerShell
+3. NodeJS
+
+## Instalar Node
+
+> https://nodejs.org/en/
+
+## Instalar Angular CLI
+
+> npm install -g @angular/cli
+
+## Criar uma nova aplicação
+
+> ng new todo
