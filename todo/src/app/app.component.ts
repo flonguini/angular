@@ -8,9 +8,10 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public todos: Todo[] = [];
-  public title: String = 'Minhas Tarefas';
-  public form: FormGroup;
+	public mode: String = 'list';
+	public todos: Todo[] = [];
+	public title: String = 'Minhas Tarefas';
+	public form: FormGroup;
 
   constructor(private fb: FormBuilder) {
 	this.form = this.fb.group({
@@ -52,7 +53,7 @@ export class AppComponent {
 		this.save();
   }
 
-  masAsUndone(todo: Todo){
+  markAsUndone(todo: Todo){
 	todo.done = false;
 
 	this.save();
@@ -61,6 +62,7 @@ export class AppComponent {
   save(){
 	  const data = JSON.stringify(this.todos);
 	  localStorage.setItem('todos', data);
+	  this.mode='list'
   }
 
   load(){
@@ -71,5 +73,9 @@ export class AppComponent {
 	  }else{
 		  this.todos = [];
 	  }
+  }
+
+  changeMode(mode:string){
+	  this.mode = mode;
   }
 }
