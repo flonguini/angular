@@ -51,3 +51,11 @@ https://balta.io/cursos/7181
 ## Criar uma nova aplicação
 
 > ng new todo
+
+## Rodando a aplicação
+
+> ng serve
+
+Abre o browser automaticamente
+
+> ng serve -o
