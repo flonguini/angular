@@ -59,3 +59,7 @@ https://balta.io/cursos/7181
 Abre o browser automaticamente
 
 > ng serve -o
+
+# Publicando a aplicação
+
+> ng build --prod
