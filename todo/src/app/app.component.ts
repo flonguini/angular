@@ -15,4 +15,20 @@ export class AppComponent {
 	  this.todos.push(new Todo(2,'Segunda tarefa',true));
 	  this.todos.push(new Todo(3,'Terceira tarefa',false));
   }
+
+  remove(todo: Todo){
+	  const index = this.todos.indexOf(todo);
+
+	  if(index !== -1){
+			this.todos.splice(index, 1);
+	  }
+  }
+
+  markAsDone(){
+
+  }
+
+  masAsUndone(){
+
+  }
 }
